@@ -1,0 +1,37 @@
+h1 {
+    color: blue;
+}
+
+@media (max-width: 450px)
+{
+    .classeTexto {
+        color: yellow;
+    }
+    .class-geral {
+        background-color: black;
+    }
+    .textogeral {
+        color: white;
+        text-align: center;
+        font-size: 26px;
+        width: 100%;
+    }
+}
+
+@media (max-width: 769px) and (min-width: 451px)
+{
+    .classeTexto {
+        color: red;
+        text-align: center;
+    }
+}
+
+@media (min-width: 770px) {
+    .classvideo {
+        width: 100%;
+    }
+    .textogeral {
+        font-size: 18px;
+        color: blue;
+    }
+}
